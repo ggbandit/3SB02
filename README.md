@@ -1,6 +1,7 @@
 # 3SB02
 Lab3SB02
 Install docker-compose
+
 //ใส่ลิงค์ บน cmp
 curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
@@ -8,6 +9,7 @@ chmod +x /usr/local/bin/docker-compose
 
 docker-compose --version
 สร้างไฟล์ docker-compose.yml ไว้ในโฟลเดอร์ wp //ต้องแก้โค้ดใหม่ 
+
 version: '3'
 
 services:
